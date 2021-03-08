@@ -154,12 +154,12 @@ android {
     productFlavors {
         production {
             dimension "app"
-            resValue "string", "app_name", "Environments"
+            resValue "string", "app_name", "MyApp"
             
         }
         development {
             dimension "app"
-            resValue "string", "app_name", "Environments Development"
+            resValue "string", "app_name", "MyApp Development"
             applicationIdSuffix ".development"
         }
     }
